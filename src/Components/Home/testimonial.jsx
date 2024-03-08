@@ -23,8 +23,17 @@ export default function App() {
                 modules={[Pagination]}
                 className="mySwiper"
             >
-                <SwiperSlide>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, vitae culpa accusantium ad reprehenderit ea eaque nulla aut cupiditate officiis impedit maiores ducimus nobis veritatis unde architecto? Cumque, optio deleniti.
-                    Voluptates earum necessitatibus fuga esse! Et est vitae quaerat dolorum voluptate soluta quibusdam quam odit. Quaerat nihil deleniti sapiente saepe! Aliquid illo soluta deserunt voluptas in autem iure incidunt aliquam!</SwiperSlide>
+                <SwiperSlide>
+                    <div>
+                        <div>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                            <i className="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </SwiperSlide>
                 <SwiperSlide>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, vitae culpa accusantium ad reprehenderit ea eaque nulla aut cupiditate officiis impedit maiores ducimus nobis veritatis unde architecto? Cumque, optio deleniti.
                     Voluptates earum necessitatibus fuga esse! Et est vitae quaerat dolorum voluptate soluta quibusdam quam odit. Quaerat nihil deleniti sapiente saepe! Aliquid illo soluta deserunt voluptas in autem iure incidunt aliquam!</SwiperSlide>
                 <SwiperSlide>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, vitae culpa accusantium ad reprehenderit ea eaque nulla aut cupiditate officiis impedit maiores ducimus nobis veritatis unde architecto? Cumque, optio deleniti.

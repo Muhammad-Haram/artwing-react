@@ -14,22 +14,22 @@ const Work = () => {
 
             <div className='work-conatiner' style={{ margin: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
-                <div className='work-box' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '50px', marginTop: '40px', marginBottom: '140px', border: '1px solid #fff', width: '25%' }}>
+                <div className='work-box' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '50px', marginTop: '40px', marginBottom: '140px', width: '25%' }}>
                     <img className='w-1/2' src={project} alt="" />
                     <p className='text-white font-semibold text-lg text-center mt-10'>Project kickoff</p>
                 </div>
 
-                <div className='work-box' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '50px', marginTop: '40px', marginBottom: '140px', border: '1px solid #fff', width: '25%' }}>
+                <div className='work-box' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '50px', marginTop: '40px', marginBottom: '140px', width: '25%' }}>
                     <img className='w-1/2' src={discover} alt="" />
                     <p className='text-white font-semibold text-lg text-center mt-10'>Implementation</p>
                 </div>
 
-                <div className='work-box' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '50px', marginTop: '40px', marginBottom: '140px', border: '1px solid #fff', width: '25%' }}>
+                <div className='work-box' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '50px', marginTop: '40px', marginBottom: '140px', width: '25%' }}>
                     <img className='w-1/2' src={design} alt="" />
                     <p className='text-white font-semibold text-lg text-center mt-10'>The Grand Unveiling</p>
                 </div>
 
-                <div className='work-box' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '50px', marginTop: '40px', marginBottom: '140px', border: '1px solid #fff', width: '25%' }}>
+                <div className='work-box' style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '50px', marginTop: '40px', marginBottom: '140px', width: '25%' }}>
                     <img className='w-1/2' src={implementation} alt="" />
                     <p className='text-white font-semibold text-lg text-center mt-10'>Eternal Refinement</p>
                 </div>

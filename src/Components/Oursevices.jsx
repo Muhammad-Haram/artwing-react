@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import SerRow from './Services/SerRow'
 import icBrand from '../assets/images/services/brand-img.png'
 import icEcommerce from '../assets/images/services/ecommerce.jpg'
@@ -19,47 +19,7 @@ import symbol from '../assets/images/Symbol.png'
 
 const Oursevices = () => {
 
-    const data = [
-        {
-            icon: icwebDe,
-            categories: "Website UI/UX",
-            categories2: "& Development",
-            para: `At the heart of our design and development philosophy lies the art of crafting immersive digital experiences We breathe life into websites with the latest UX/UI strategies making each interaction intuitive and engaging
-            We don't just build websites we create digital masterpieces that resonate with your brand's essence Your story deserves to be told and we ensure it's shared in a unique and compelling way Our custom websites are tailor-made to fit your brand's precise specifications engaging users converting sales and generating leads`,
-            point1: `Creative Website Design`,
-            point2: `Responsive Web Development`,
-            point3: `Interactive User Experience`,
-            point4: `Content Management Systems (CMS)`,
-            point5: `Custom Functionality Development`,
-            rightBanner: devopimg
-        },
-        {
-            icon: icwebDe,
-            categories: "AI / ML",
-            categories2: "Solution",
-            para: `At the heart of our design and development philosophy lies the art of crafting immersive digital experiences We breathe life into websites with the latest UX/UI strategies making each interaction intuitive and engaging
-            We don't just build websites we create digital masterpieces that resonate with your brand's essence Your story deserves to be told and we ensure it's shared in a unique and compelling way Our custom websites are tailor-made to fit your brand's precise specifications engaging users converting sales and generating leads`,
-            point1: `Creative Website Design`,
-            point2: `Responsive Web Development`,
-            point3: `Interactive User Experience`,
-            point4: `Content Management Systems (CMS)`,
-            point5: `Custom Functionality Development`,
-            rightBanner: Ai
-        },
-        {
-            icon: icwebDe,
-            categories: "Website UI/UX",
-            categories2: "& Development",
-            para: `At the heart of our design and development philosophy lies the art of crafting immersive digital experiences We breathe life into websites with the latest UX/UI strategies making each interaction intuitive and engaging
-            We don't just build websites we create digital masterpieces that resonate with your brand's essence Your story deserves to be told and we ensure it's shared in a unique and compelling way Our custom websites are tailor-made to fit your brand's precise specifications engaging users converting sales and generating leads`,
-            point1: `Creative Website Design`,
-            point2: `Responsive Web Development`,
-            point3: `Interactive User Experience`,
-            point4: `Content Management Systems (CMS)`,
-            point5: `Custom Functionality Development`,
-            rightBanner: Ai
-        }
-    ]
+    useState
 
     return (
         <>
