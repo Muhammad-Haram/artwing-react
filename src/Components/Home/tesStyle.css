@@ -19,11 +19,13 @@
     width: 100%;
     height: 100%;
   }
+
   
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: #1c1c1c;
+    padding: 50px;
   
     /* Center slide text vertically */
     display: flex;
