@@ -11,7 +11,7 @@ const TabSection = () => {
         const updated = getData.filter((currElem) => {
             return currElem.categories === catergory
         })
-        setgetData(updated)
+        setgetData([...getData, updated])
         setActiveTab(tabnumber)
     }
 
